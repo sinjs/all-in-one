@@ -1,6 +1,8 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
+import NotFound from './Components/Pages/NotFound';
+
 class Routes extends React.Component {
     render() {
         return <>
@@ -11,7 +13,7 @@ class Routes extends React.Component {
                 </Route>
 
                 <Route path="*">
-                    {/* 404 */}
+                    <NotFound />
                 </Route>
 
             </Switch>
