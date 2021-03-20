@@ -5,11 +5,15 @@ import './Vendor/Style/roboto.css';
 import './Style/All.css';
 
 import Routes from "./Routes.js";
+import Navbar from "./Components/Helpers/Navbar.js";
 
 
 function App() {
   return (
     <div id="Application">
+      <div id="Nav">
+        <Navbar />
+      </div>
       <div id="Page">
         <BrowserRouter>
           <Routes />
