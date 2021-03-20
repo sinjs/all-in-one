@@ -19,6 +19,9 @@ function App() {
           <Routes />
         </BrowserRouter>
       </div>
+      <div id="Footer">
+        
+      </div>
     </div>
   );
 }
