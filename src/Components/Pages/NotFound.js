@@ -22,7 +22,7 @@ class NotFound extends React.Component {
                     <Box my={2}>
                         <Typography variant="body1">
                             We couldn&apos;t find the requested page on the server. <br />
-                            If you think this is a server error, plaese contact <a href="/contact-the-owner">the owner</a>.
+                            If you think this is a server error, please contact <a href="/contact-the-owner">the owner</a>.
                         </Typography>
                     </Box>
                 </Box>
